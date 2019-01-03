@@ -1,0 +1,16 @@
+{
+    "name": "tangar76/module-image-canonical",
+    "description": "New way to maintain resized product images",
+    "keywords": [
+        "canonical"
+    ],
+    "type": "magento2-module",
+    "version": "0.1.0",
+    "license": "OSL-3.0",
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Tangar\\ImageManagement\\": ""
+        }
+    }
+}
